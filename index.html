@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator spalania paliwa</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="box">
+        <label for="price">Podaj cene paliwa</label>
+        <input type="number" id="price">
+        <div style="clear: both"></div>
+        <label for="distance">Przejechany dystans</label>
+        <input type="number" id="distance">
+        <div style="clear: both"></div>
+        <label for="liter">Ilość zużytego paliwa</label>
+        <input type="number" id="liter">
+        <div style="clear: both"></div>
+       <input type="submit" value="Sprawdz" onclick="calculate()">
+        <h6>Zużycie paliwa na 100km:</h6>
+        <p id="score"></p>
+        <div style="clear: both"></div>
+        <div><h6>Koszt paliwa na 100km:</h6><div id="score2"></div></div>
+        <div><h6>Koszt paliwa na 1km:</h6><div id="score3"></div></div>
+        <a href="index.html"><button>Reset</button></a>
+    </div>
+</body>
+
+</html>
